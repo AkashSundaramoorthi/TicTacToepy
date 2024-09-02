@@ -75,9 +75,9 @@ def computervs():
         # To check if there is a winner
         if isWinner(board, current_turn):
             if current_turn == 'X':
-                computer += 1
-            else:
                 player1 += 1
+            else:
+                computer += 1
             break        
 
         # Draw condition
